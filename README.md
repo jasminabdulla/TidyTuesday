@@ -4,6 +4,6 @@
 ### Term: Spring 2021
 Weekly assignments of Tidy Tuesday challenges will be located here. 
  * [Tidy Tuesday](https://github.com/Biol551-CSUN/TidyTuesday/tree/main)
-   * [Data](https://github.com/Biol551-CSUN/Abdulla/tree/main/Data)
-   * [Scripts](https://github.com/Biol551-CSUN/Abdulla/tree/main/Scripts)
-   * [Output](https://github.com/Biol551-CSUN/Abdulla/tree/main/Output)
+   * [Data](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Data)
+   * [Scripts](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Scripts)
+   * [Output](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Output)

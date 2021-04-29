@@ -11,22 +11,25 @@ library(paletteer)
 library(ggplot2)
 library(ggeasy)
 library(ggstream)
-library(mdthemes)
-library(extrafont)
 
 ### Load Data ###
 tt <- tt_load("2021-04-27")
+tt
 
 ### Select Data ###
 raw_data <- tt$departures
 raw_data %>% count(departure_code, sort = TRUE)
-dep_solver <- tibble(departure_code = c(1:9,NA), #selecting all the reasons 
-                     reason = c("CEO Death", #specifically selecting reasons, wanted voluntary and involuntary only
-                                "CEO Illness",
+dep_solver <- tibble(departure_code = c(1:9,NA),
+                     reason = c("Death",
+                                "Ilness",
                                 "Job performance",
                                 "Legal violations",
-                                "V: Retired",
-                                "V: New opportunity",))
+                                "Retired",
+                                "New opportunity",
+                                "Other",
+                                "Unknown",
+                                "Research mistake",
+                                "Unknown"))
 
 ### Clean Data ###
 clean_data <- raw_data %>%
@@ -46,10 +49,11 @@ ranges <- clean_data %>%
 ### Graph Data ###
 clean_data %>% #setting up graph with clean data
   ggplot(aes(fyear_gone, n, fill = reason)) + #plotting the year gone and filling with the reason
-  geom_area(type = "proportional", #tryng out new gg plot 
+  geom_stream(type = "proportional", #trying out new gg plot 
               extra_span = 0.3,
               true_range = "none") +
-  paletteer::scale_fill_paletteer_d("nord::aurora") + #color palette
+  scale_y_continuous(breaks = seq(2000, 2020,1)) +
+  paletteer::scale_fill_paletteer_d(palette = "ggthemes::calc") + #color palette
   theme_bw() + 
   labs(color = "Reason", #labeling axises
        x = "Year of Departure",

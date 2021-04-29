@@ -18,9 +18,9 @@ tt
 
 ### Select Data ###
 raw_data <- tt$departures
-raw_data %>% count(departure_code, sort = TRUE)
-dep_solver <- tibble(departure_code = c(1:9,NA),
-                     reason = c("Death",
+raw_data %>% count(departure_code, sort = TRUE) #want the departure codes to graph
+dep_solver <- tibble(departure_code = c(1:9,NA), #9 departure codes
+                     reason = c("Death", #listing the departure reasons instead of code numbers
                                 "Ilness",
                                 "Job performance",
                                 "Legal violations",
@@ -41,7 +41,7 @@ clean_data <- raw_data %>%
   arrange(fyear_gone) %>% #organize by year gone
   filter(fyear_gone <= 2020 & fyear_gone >= 2010) %>% #selecting last 10 years only
   mutate(reason = fct_reorder(reason, n, .desc = TRUE))  #mutating the reason for only true values
-ranges <- clean_data %>% 
+ranges <- clean_data %>% #getting the min max range as well as grouping by the year the ceos left
   group_by(fyear_gone) %>% 
   summarise(min = min(n), 
             max = max(n))
@@ -52,7 +52,7 @@ clean_data %>% #setting up graph with clean data
   geom_stream(type = "proportional", #trying out new gg plot 
               extra_span = 0.3,
               true_range = "none") +
-  scale_y_continuous(breaks = seq(2000, 2020,1)) +
+  scale_y_continuous(breaks = seq(2000, 2020,1)) + #cleaning up x acis
   paletteer::scale_fill_paletteer_d(palette = "ggthemes::calc") + #color palette
   theme_bw() + 
   labs(color = "Reason", #labeling axises

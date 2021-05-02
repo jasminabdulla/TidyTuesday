@@ -10,6 +10,6 @@ Weekly assignments of Tidy Tuesday challenges will be located here.
 * [Deforestation](https://github.com/jasminabdulla/TidyTuesday/tree/master/Deforestation)
 * [CEO Departure](https://github.com/jasminabdulla/TidyTuesday/tree/master/CEO%20Departure)
 * [Bechdel](https://github.com/jasminabdulla/TidyTuesday/tree/master/Bechdel)
-* [US Post Offices](https://github.com/jasminabdulla/TidyTuesday/tree/master/USPostOffices)
+* [UN Votes](https://github.com/jasminabdulla/TidyTuesday/tree/master/UN)
 
 

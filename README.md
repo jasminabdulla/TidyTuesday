@@ -1,4 +1,4 @@
-# Abdulla Tidy Tuesday Repo
+# J. Abdulla Tidy Tuesday Repo
 ### Prof: Dr. Silbiger
 ### Course: BIOL 551 Computer Modeling
 ### Term: Spring 2021

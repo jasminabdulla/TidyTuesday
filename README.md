@@ -11,3 +11,6 @@ Weekly assignments of Tidy Tuesday challenges will be located here.
 * [CEO Departure](https://github.com/jasminabdulla/TidyTuesday/tree/master/CEO%20Departure)
 * [Bechdel](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Bechdel)
 * [US Post Offices](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/USPostOffices)
+
+
+https://github.com/jasminabdulla/TidyTuesday/tree/master/SuperBowl

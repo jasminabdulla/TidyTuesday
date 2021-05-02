@@ -1,17 +1,15 @@
-# Abdulla Tidy Tuesday Repo
+# J. Abdulla Tidy Tuesday Repo
 ### Prof: Dr. Silbiger
 ### Course: BIOL 551 Computer Modeling
 ### Term: Spring 2021
 Weekly assignments of Tidy Tuesday challenges will be located here. 
- * [SuperBowl](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/SuperBowl)
-   * [Data](https://github.com/jasminabdulla/TidyTuesday/tree/master/Data)
-   * [Scripts](https://github.com/jasminabdulla/TidyTuesday/tree/master/Scripts)
-   * [Output](https://github.com/jasminabdulla/TidyTuesday/tree/master/Output)
- * [Gaming)](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Gaming)
-   * [Data](https://github.com/jasminabdulla/TidyTuesday/tree/master/Data)
-   * [Scripts](https://github.com/jasminabdulla/TidyTuesday/tree/master/Scripts)
-   * [Output](https://github.com/jasminabdulla/TidyTuesday/tree/master/Output)
- * [Makeup](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Makeup)
-   * [Data](https://github.com/jasminabdulla/TidyTuesday/tree/master/Data)
-   * [Scripts](https://github.com/jasminabdulla/TidyTuesday/tree/master/Scripts)
-   * [Output](https://github.com/jasminabdulla/TidyTuesday/tree/master/Output)
+* [SuperBowl](https://github.com/jasminabdulla/TidyTuesday/tree/master/SuperBowl)
+* [Gaming](https://github.com/jasminabdulla/TidyTuesday/tree/master/Gaming)
+* [Makeup](https://github.com/jasminabdulla/TidyTuesday/tree/master/Makeup)
+* [Netflix](https://github.com/jasminabdulla/TidyTuesday/tree/master/Netflix)
+* [Deforestation](https://github.com/jasminabdulla/TidyTuesday/tree/master/Deforestation)
+* [CEO Departure](https://github.com/jasminabdulla/TidyTuesday/tree/master/CEO%20Departure)
+* [Bechdel](https://github.com/jasminabdulla/TidyTuesday/tree/master/Bechdel)
+* [US Post Offices](https://github.com/jasminabdulla/TidyTuesday/tree/master/USPostOffices)
+
+

@@ -8,6 +8,6 @@ Weekly assignments of Tidy Tuesday challenges will be located here.
 * [Makeup](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Makeup)
 * [Netflix](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Netflix)
 * [Deforestation](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Deforestation)
-* [CEO Departure](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/CEO Departure)
+* [CEO Departure](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/CEODeparture)
 * [Bechdel](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Bechdel)
-* [US Post Offices](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/US Post Offices)
+* [US Post Offices](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/USPostOffices)

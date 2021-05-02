@@ -3,15 +3,11 @@
 ### Course: BIOL 551 Computer Modeling
 ### Term: Spring 2021
 Weekly assignments of Tidy Tuesday challenges will be located here. 
- * [SuperBowl](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/SuperBowl)
-   * [Data](https://github.com/jasminabdulla/TidyTuesday/tree/master/Data)
-   * [Scripts](https://github.com/jasminabdulla/TidyTuesday/tree/master/Scripts)
-   * [Output](https://github.com/jasminabdulla/TidyTuesday/tree/master/Output)
- * [Gaming)](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Gaming)
-   * [Data](https://github.com/jasminabdulla/TidyTuesday/tree/master/Data)
-   * [Scripts](https://github.com/jasminabdulla/TidyTuesday/tree/master/Scripts)
-   * [Output](https://github.com/jasminabdulla/TidyTuesday/tree/master/Output)
- * [Makeup](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Makeup)
-   * [Data](https://github.com/jasminabdulla/TidyTuesday/tree/master/Data)
-   * [Scripts](https://github.com/jasminabdulla/TidyTuesday/tree/master/Scripts)
-   * [Output](https://github.com/jasminabdulla/TidyTuesday/tree/master/Output)
+* [SuperBowl](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/SuperBowl)
+* [Gaming)](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Gaming)
+* [Makeup](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Makeup)
+* [Netflix](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Netflix)
+* [Deforestation](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Deforestation)
+* [CEO Departure](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/CEO Departure)
+* [Bechdel](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/Bechdel)
+* [US Post Offices](https://github.com/Biol551-CSUN/TidyTuesday/tree/main/US Post Offices)
